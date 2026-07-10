@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>しみ / shimi-works — 制作リンク集</title>
+<meta name="description" content="しみ（shimi-works）の個人制作アプリ一覧。学習と創作の“めんどくさい一歩”を体験に変える道具たち。">
+<meta property="og:title" content="しみ / shimi-works — 制作リンク集">
+<meta property="og:description" content="学習と創作の“めんどくさい一歩”を、体験に。個人制作アプリ一覧。">
+</head>
+<body>
+<style>
+  :root{
+    --bg:#0e1116; --bg2:#12161c; --card:#171c24; --card2:#1c222b; --line:#28303b;
+    --fg:#eaf0f7; --muted:#96a3b4; --accent:#5b9dff; --accent2:#7bd88f; --chip:#232b35;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 14px 34px rgba(0,0,0,.34);
+    --jp:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,Meiryo,sans-serif;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f4f1ea; --bg2:#efeadf; --card:#ffffff; --card2:#faf8f2; --line:#e4dccc;
+      --fg:#24211b; --muted:#6d6555; --accent:#2e6fb0; --accent2:#3f6b4c; --chip:#f0ebe0;
+      --shadow:0 1px 2px rgba(60,45,30,.05),0 12px 30px rgba(60,45,30,.08);
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:
+      radial-gradient(1100px 520px at 80% -10%, rgba(91,157,255,.16), transparent 60%),
+      radial-gradient(800px 480px at 0% 108%, rgba(123,216,143,.10), transparent 55%),
+      var(--bg);
+    color:var(--fg);font-family:var(--jp);line-height:1.6;min-height:100vh;
+    -webkit-font-smoothing:antialiased;padding:44px 18px 60px}
+  .wrap{max-width:520px;margin:0 auto}
+
+  header{text-align:center;margin-bottom:30px}
+  .ava{width:78px;height:78px;border-radius:50%;margin:0 auto 16px;
+    display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:800;color:#08111f;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:var(--shadow)}
+  header h1{font-size:24px;font-weight:800;letter-spacing:.01em}
+  header .handle{color:var(--accent);font-size:14px;font-weight:600;margin-top:2px}
+  header .tag{color:var(--muted);font-size:14.5px;margin-top:12px;line-height:1.7}
+
+  .list{display:flex;flex-direction:column;gap:12px;margin-top:26px}
+  a.item{display:flex;align-items:center;gap:15px;text-decoration:none;color:inherit;
+    background:var(--card);border:1px solid var(--line);border-radius:16px;padding:15px 16px;
+    box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease,background .12s}
+  a.item:active{transform:scale(.985)}
+  @media(hover:hover){a.item:hover{border-color:var(--accent);background:var(--card2)}}
+  .ic{flex:0 0 auto;width:52px;height:52px;border-radius:14px;background:var(--chip);border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;font-size:27px}
+  .tx{flex:1;min-width:0}
+  .tx .nm{font-size:16.5px;font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .tx .ds{font-size:13px;color:var(--muted);margin-top:2px;overflow:hidden;text-overflow:ellipsis}
+  .badge{font-size:10.5px;font-weight:800;letter-spacing:.06em;color:#08111f;background:var(--accent2);
+    border-radius:20px;padding:2px 8px}
+  .chev{flex:0 0 auto;color:var(--muted);font-size:20px}
+
+  .section-label{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+    margin:30px 4px 4px;font-weight:600}
+  a.item.more{background:transparent;border-style:dashed}
+
+  footer{margin-top:34px;text-align:center;color:var(--muted);font-size:12.5px}
+  footer a{color:var(--accent);text-decoration:none}
+  footer .row{margin-top:8px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="ava">し</div>
+    <h1>しみ</h1>
+    <div class="handle">shimi-works</div>
+    <div class="tag">学習と創作の“めんどくさい一歩”を、<br>体験に変える道具をつくっています。</div>
+  </header>
+
+  <div class="section-label">Apps ― さわれる制作物</div>
+  <div class="list">
+
+    <a class="item" href="https://shimi-works.github.io/snaptex/" target="_blank" rel="noopener">
+      <div class="ic">📐</div>
+      <div class="tx"><div class="nm">SnapTeX <span class="badge">NEW</span></div>
+        <div class="ds">数式のスクショを LaTeX に一発変換</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/goi-lab/" target="_blank" rel="noopener">
+      <div class="ic">📖</div>
+      <div class="tx"><div class="nm">語彙ラボ</div>
+        <div class="ds">日本語の語彙力を、暇つぶしで育てる</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/chord-lab/" target="_blank" rel="noopener">
+      <div class="ic">🎹</div>
+      <div class="tx"><div class="nm">Chord Lab</div>
+        <div class="ds">コード進行を作る・覚える作曲スタジオ</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/shiori/" target="_blank" rel="noopener">
+      <div class="ic">📚</div>
+      <div class="tx"><div class="nm">栞 しおり</div>
+        <div class="ds">青空文庫をAIと読む文豪コンシェルジュ</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/memoria-yorushika/" target="_blank" rel="noopener">
+      <div class="ic">🎐</div>
+      <div class="tx"><div class="nm">Memoria ― 夜road</div>
+        <div class="ds">ヨルシカの世界観を辿るマップ</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/art-portfolio/" target="_blank" rel="noopener">
+      <div class="ic">🎨</div>
+      <div class="tx"><div class="nm">片泪 katanami</div>
+        <div class="ds">描いた絵の作品集（掛け軸風の展示）</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/recipe-matome/" target="_blank" rel="noopener">
+      <div class="ic">🍳</div>
+      <div class="tx"><div class="nm">レシピまとめ</div>
+        <div class="ds">URLを貼ると材料費・時間まで集計</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/ai-journal/" target="_blank" rel="noopener">
+      <div class="ic">📓</div>
+      <div class="tx"><div class="nm">AI Journal</div>
+        <div class="ds">3分で書けて、AIが振り返る日記</div></div>
+      <div class="chev">›</div>
+    </a>
+
+    <a class="item" href="https://shimi-works.github.io/lenticular/" target="_blank" rel="noopener">
+      <div class="ic">🖼️</div>
+      <div class="tx"><div class="nm">レンチキュラーメーカー</div>
+        <div class="ds">傾けると絵が変わる画像を作る</div></div>
+      <div class="chev">›</div>
+    </a>
+
+  </div>
+
+  <div class="section-label">More</div>
+  <div class="list">
+    <a class="item more" href="https://shimi-works.github.io/portfolio/" target="_blank" rel="noopener">
+      <div class="ic">🗂️</div>
+      <div class="tx"><div class="nm">制作ポートフォリオ</div>
+        <div class="ds">設計思想まで含めた、制作物の全体像</div></div>
+      <div class="chev">›</div>
+    </a>
+    <a class="item more" href="https://github.com/shimi-works" target="_blank" rel="noopener">
+      <div class="ic">💻</div>
+      <div class="tx"><div class="nm">GitHub</div>
+        <div class="ds">ソースコード（shimi-works）</div></div>
+      <div class="chev">›</div>
+    </a>
+  </div>
+
+  <footer>
+    <div>© 2026 しみ / shimi-works</div>
+    <div class="row">個人制作・単一HTML中心</div>
+  </footer>
+</div>
+</body>
+</html>
